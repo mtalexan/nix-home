@@ -101,7 +101,7 @@
 
     # content search in directory with fuzzy match
     zplug.plugins = zplug.plugins ++ [
-      { name = seletskiy/zsh-fuzzy-search-and-edit"; }
+      { name = "seletskiy/zsh-fuzzy-search-and-edit"; }
     ];
     sessionVariables =  sessionVariables ++ [
       # FZF zplug command-line options
